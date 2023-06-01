@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class MainPage {
     private final SelenideElement logo = $(".indexpage-main__logo img"),
-            mainTitle = $("indexpage-main__title");
+            mainTitle = $(".indexpage-main__title");
     private final ElementsCollection socialNetworks = $$(".social.for-desktop a[target='_blank']"),
             newsBlocks = $$(".news__date");
 
